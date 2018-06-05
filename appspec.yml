@@ -1,0 +1,22 @@
+version: 0.0
+os: linux
+files:
+   - source: /
+     destination: /home/ec2-user/tomcat9/webapps
+permissions:
+   - object: /home/ex2-user/tomcat9/webapps
+     pattern: "**"
+     owner: ec2-user
+     group: ec2-user
+     mode: 755
+     type:
+       - folder
+hooks:
+   BeforeInstall:
+    - location: scripts/installtomcat.sh
+      runas: ec2-user
+    - location: scripts/starttomcat.sh
+      runas: ec2-user
+   AfterInstall:
+    - location: scripts/restarttomcat.sh
+      runas: ec2-user
