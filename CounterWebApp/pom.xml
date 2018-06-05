@@ -1,6 +1,6 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" 
+<project xmlns="http://maven.apache.org/POM/4.0.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
 	http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.dnb</groupId>
@@ -90,7 +90,7 @@
 				<wtpversion>2.0</wtpversion>
 			</configuration>
 		  </plugin>
-			
+
 		  <!-- Set JDK Compiler Level -->
 		  <plugin>
 			<groupId>org.apache.maven.plugins</groupId>
@@ -116,8 +116,8 @@
 
 	</build>
 	<scm>
-	        <url>https://stash.aws.dnb.com/projects/TCSC/repos/testcodedeploy/browse</url>
-	        <connection>scm:git:https://bitbucket_aws_jenkins_user@stash.aws.dnb.com/scm/tcsc/testcodedeploy.git</connection>
-	        <developerConnection>scm:git:https://bitbucket_aws_jenkins_user@stash.aws.dnb.com/scm/tcsc/testcodedeploy.git</developerConnection>
+	        <url>https://github.com/gopinath1986/TestAWSCodeDeploy</url>
+	        <connection>scm:git:https://github.com/gopinath1986/TestAWSCodeDeploy.git</connection>
+	        <developerConnection>scm:git:https://github.com/gopinath1986/TestAWSCodeDeploy.git</developerConnection>
     	</scm>
 </project>
