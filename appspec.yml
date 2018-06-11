@@ -4,7 +4,7 @@ files:
    - source: /
      destination: /home/ec2-user/tomcat9/webapps
 permissions:
-   - object: /home/ex2-user/tomcat9/webapps
+   - object: /home/ec2-user/tomcat9/webapps
      pattern: "**"
      owner: ec2-user
      group: ec2-user
